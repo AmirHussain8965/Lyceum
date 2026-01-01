@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LYCEUM - OUR COMPANIES</title>
+    <link rel="shortcut icon" href="assets/imgs/high-school.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <header class="header_section">
+        <div class="container" id="header_container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                   <a class="navbar-brand" href="companies.html"><img src="assets/imgs/high-school.png" alt=""> Lyceum</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+                            <li class="nav-item">
+                                <a aria-current="page" class="nav-link active" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Our Companies
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="companies.html">Lyceum Technologies</a></li>
+                                    <li><a class="dropdown-item" href="about.html">Growth and Strategic Development</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="companies.html">Lyceum Engineering & Construction Pvt. Limited</a></li>
+                                    <li><a class="dropdown-item" href="companies.html">AF Constructions</a></li>
+                                    <li><a class="dropdown-item" href="companies.html">Shama Al-Madina</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="services.html">Services Portfolio</a></li>
+                                    <li><a class="dropdown-item" href="#Expertise">Our Expertise</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Existence
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="contact.html">Global Presence and
+                                            Partnerships</a></li>
+                                    <li><a class="dropdown-item" href="contact.html">Office Locations</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Quality</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                        </ul>
+                        <div class="nav_btns">
+                            <a href="contact.html"><button type="button">Get In Touch <i
+                                        class="bi bi-arrow-right-short"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="companies_section_one" id="Hero">
+        <div class="container">
+            <div class="companies_title">
+                <h1>Our Companies</h1>
+                <p>Lycium is a Group of Companies</p>
+            </div>
+            <!-- <div class="about_sec1_text_main">
+                <h5>lyceum Technologies <span>Canada</span></h5>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eius, consectetur vitae odit
+                    commodi corporis. Ratione quidem modi obcaecati eligendi quis odio ad atque soluta animi, voluptatum
+                    eum suscipit non!</p>
+            </div> -->
+            <div class="companies_tabs_main">
+                <div class="d-flex align-items-start companies_tabs_flex">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">lyceum Technologies (CA)</button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Lycium Engineering & Consultancy (UK)</button>
+                        <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">lyceum Engineering & construction Pvt. limited (PK)</button>
+                        <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">AF constructions (KSA)</button>
+                        <button class="nav-link" id="v-pills-settings2-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings2" type="button" role="tab"
+                            aria-controls="v-pills-settings2" aria-selected="false">Shama Al-madina (UAE)</button>
+                    </div>
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab" tabindex="0">
+                            <div class="companies_tabs_content">
+                                <h5>1. lyceum Technologies (Canada)</h5>
+                                <p>Soon...</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab" tabindex="0">
+                            <div class="companies_tabs_content">
+                                <h5>2. Lycium Engineering and Consultancy (UK)</h5>
+                                <p>Soon...</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab" tabindex="0">
+                            <div class="companies_tabs_content">
+                                <h5>3. lyceum Engineering & construction Pvt. limited (Pakistan)</h5>
+                            </div>
+                            <div class="tabs_in_tabs_main">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="pills-t2home-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2home" type="button" role="tab"
+                                            aria-controls="pills-t2home" aria-selected="true">Company Overview</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2profile-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2profile" type="button" role="tab"
+                                            aria-controls="pills-t2profile" aria-selected="false">Growth and Strategic Development</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2profile2-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2profile2" type="button" role="tab"
+                                            aria-controls="pills-t2profile2" aria-selected="false">Leadership and Governance</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact" type="button" role="tab"
+                                            aria-controls="pills-t2contact" aria-selected="false">Vision and Mission</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact2-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact2" type="button" role="tab"
+                                            aria-controls="pills-t2contact2" aria-selected="false">Core Values</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact3-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact3" type="button" role="tab"
+                                            aria-controls="pills-t2contact3" aria-selected="false">Services Portfolio</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact4-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact4" type="button" role="tab"
+                                            aria-controls="pills-t2contact4" aria-selected="false">Quality and Compliance</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact5-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact5" type="button" role="tab"
+                                            aria-controls="pills-t2contact5" aria-selected="false">Global Presence and Partnerships</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact6-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact6" type="button" role="tab"
+                                            aria-controls="pills-t2contact6" aria-selected="false">Contact Us</button>
+                                    </li>
+                                    <!-- <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact7-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact7" type="button" role="tab"
+                                            aria-controls="pills-t2contact7" aria-selected="false">Branch offices</button>
+                                    </li> -->
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="pills-t2contact8-tab" data-bs-toggle="pill"
+                                            data-bs-target="#pills-t2contact8" type="button" role="tab"
+                                            aria-controls="pills-t2contact8" aria-selected="false">Careers</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-t2home" role="tabpanel"
+                                        aria-labelledby="pills-t2home-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Company Overview</h5>
+                                            <p>Founded in 2006 in Alberta, Canada, Lyceum Technologies was established by professional
+                                            engineers with a vision to deliver premier engineering services. Over time, the company
+                                            strategically evolved, expanding its footprint to key global markets including North America,
+                                            the Middle East, and the Eastern regions. Following strategic restructuring in 2014, leadership
+                                            consolidated under Mr. Waseem Ahmad, P.Eng., who has since driven the company’s growth
+                                            alongside a dedicated management team. In 2018, Lyceum Engineering & Construction Pvt.
+                                            Limited was established in Pakistan as a sister company to support expanded project
+                                            execution, with further organizational strengthening in 2025 through the addition of new
+                                            directors and enhanced governance.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2profile" role="tabpanel"
+                                        aria-labelledby="pills-t2profile-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Growth and Strategic Development</h5>
+                                                <p>Following a strategic restructuring in 2010, Lyceum Technologies underwent a pivotal shift, prioritizing business development and cultivating international partnerships. This phase
+                                                marked a deliberate expansion of the company’s operational scope and market reach.
+                                                Through persistent effort and strategic business realignment, the company successfully
+                                                navigated early challenges, solidifying its operational foundation.</p>
+                                                <p>The establishment of its sister company, Lyceum Engineering & Construction Pvt. Limited, in Pakistan in 2018 was a key strategic initiative, significantly enhancing localized project
+                                                execution capabilities and regional presence. This development was further strengthened in
+                                                2025 through a restructuring of the Pakistan entity, which introduced an expanded leadership
+                                                team and an enhanced governance framework. These steps have strategically positioned the
+                                                organization for sustained growth and superior project delivery, aligning with its long-term
+                                                strategic imperatives.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2profile2" role="tabpanel"
+                                        aria-labelledby="pills-t2profile2-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Leadership and Governance</h5>
+                                                <p>The company is steered by a distinguished Board of Directors, whose collective expertise spans a diverse range of engineering disciplines and international project management. This leadership team provides strategic direction and ensures operational excellence across all facets of the organization</p>
+                                                <p>The board comprises:</p>
+                                                <!-- <ul>
+                                                    <li><span>Mr. Waseem Ahmad — Director</span>, Business Development, Planning & Contracts 
+                                                        (Mechanical Engineer, P.Eng.)</li>
+                                                    <li><span>Mr. Ghulam Murtaza Ali Khan Afghani — Director</span>, Engineering & Projects 
+                                                        (Mechanical Engineer, ASME & SOE Member)</li>
+                                                    <li><span>Mr. Mustafa Ghulam Rana — Director (Acting)</span>, EPC & EPCM 
+                                                        (Electrical Engineer, P.Eng.)</li>
+                                                    <li><span>Mr. Fahim Khalid Bhatti — Director (Acting)</span>, Proposals & Consulting Services 
+                                                        (Chemical Engineer, PEC Member)</li>
+                                                    <li><span>Mr. Muhammad Usman — Director</span>, HR, Finance, and General Services 
+                                                        (Instrumentation & Controls)</li>
+                                                </ul> -->
+                                        </div>
+                                        <div class="companies_leadership">
+                                                <h3>Mr. Waseem Ahmad</h3>
+                                                <h6><span>Director: </span>Business Development, Planning & Contracts</h6>
+                                                <p>(Mechanical Engineer, P.Eng.)</p>
+                                                <h3>Mr. Ghulam Murtaza Ali Khan Afghani</h3>
+                                                <h6><span>Director: </span> Engineering & Projects </h6>
+                                                <p>(Mechanical Engineer, ASME & SOE Member)</p>
+                                                <h3>Mr. Mustafa Ghulam Rana</h3>
+                                                <h6><span>Director (Acting): </span> EPC & EPCM </h6>
+                                                <p>(Electrical Engineer, P.Eng.)</p>
+                                                <h3>Mr. Fahim Khalid Bhatti</h3>
+                                                <h6><span>Director (Acting): </span> Proposals & Consulting Services </h6>
+                                                <p>(Chemical Engineer, PEC Member)</p>
+                                                <h3>Mr. Muhammad Usman</h3>
+                                                <h6><span>Director</span> HR, Finance, and General Services </h6>
+                                                <p>(Instrumentation & Controls)</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact" role="tabpanel"
+                                        aria-labelledby="pills-t2contact-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Vision and Mission</h5>
+                                            <p>Lyceum Technologies strives to be a global leader in Engineering, Procurement, and
+                                                Construction Management (EPCM), engineering consultancy and turnkey project contracting,
+                                                driven by our mission to develop human resources, harness cutting-edge technology, enhance
+                                                asset safety, and protect the environment. Our vision is grounded in delivering exceptional
+                                                value to clients by combining innovative solutions with operational excellence.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact2" role="tabpanel"
+                                        aria-labelledby="pills-t2contact2-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Core Values</h5>
+                                            <ul>
+                                                <li>Commitment to client satisfaction and long-term partnerships</li>
+                                                <li>Maintaining the highest standards of quality, safety, and environmental stewardship</li>
+                                                <li>Accountability, transparency, and integrity in all business dealings</li>
+                                                <li>Continuous improvement through knowledge sharing and disciplined processes</li>
+                                                <li>Respect for people as our greatest asset</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact3" role="tabpanel"
+                                        aria-labelledby="pills-t2contact3-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Services Portfolio</h5>
+                                            <p>Lyceum Technologies offers a comprehensive range of services across the entire project
+                                                lifecycle including:
+                                            </p>
+                                            <ul>
+                                                <li>Multidisciplinary design and engineering
+                                                    (process, control, electrical, mechanical,environmental)</li>
+                                                <li>Feasibility studies, conceptual and detailed engineering packages</li>
+                                                <li>Feasibility studies, conceptual and detailed engineering packages</li>
+                                                <li>EPC and EPCM project delivery, construction supervision, and commissioning support</li>
+                                                <li>Project and portfolio management for greenfield and brownfield capital projects</li>
+                                                <li>Maintenance and Reliability Engineering</li>
+                                                <li>Shutdown, Turnaround and Outage management</li>
+                                                <li>Operational Management and Readiness Assurance</li>
+                                            </ul>
+                                            <p>Our specialized expertise spans process simulation, instrumentation, dynamic control
+                                                systems, mechanical and piping design, environmental impact studies, and construction
+                                                execution through strategic partnerships globally.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact4" role="tabpanel"
+                                        aria-labelledby="pills-t2contact4-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Quality and Compliance</h5>
+                                            <p>We are committed to surpassing client expectations for quality while ensuring full compliance with international standards and industry regulations. Our rigorous quality management system fosters a culture of continuous process improvements and accountability at every level.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact5" role="tabpanel"
+                                        aria-labelledby="pills-t2contact5-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Global Presence and Partnerships</h5>
+                                            <p>With headquarters in Edmonton, Canada, and branch offices in London, UK, and Lahore,
+                                            Pakistan, Lyceum Technologies collaborates with reputable associates across North America, the Middle East, and South Asia to deliver integrated, client-focused engineering solutions.</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-t2contact6" role="tabpanel"
+                                        aria-labelledby="pills-t2contact6-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Contact Us</h5>
+                                            <h6><span>Address:</span> <a href="#">2511 Kelly Circle SW Edmonton, AB Canada T6W4K2</a></h6>
+                                            <h6><span>Phone:</span> <a href="tel: +1 780 242 9505"> +1 780 242 9505</a></h6>
+                                            <h6><span>Email:</span><a href="mailto: info@lyceumtechnology.com"> info@lyceumtechnology.com</a></h6>
+                                            <h6><span>Website: <a href="https://lyceumtechnology.com" target="_blank">
+                                                www.lyceumtechnology.com</a></span></h6>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="tab-pane fade" id="pills-t2contact7" role="tabpanel"
+                                        aria-labelledby="pills-t2contact7-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Branch offices:</h5>
+                                            <ul>
+                                                <li>Lyceum Engineering PLC, London, UK</li>
+                                                <li>Lyceum Engineering & Construction Pvt. Limited, Lahore, Pakistan</li>
+                                            </ul>
+                                        </div>
+                                    </div> -->
+                                    <div class="tab-pane fade" id="pills-t2contact8" role="tabpanel"
+                                        aria-labelledby="pills-t2contact8-tab" tabindex="0">
+                                        <div class="tabs_in_tabs_content">
+                                            <h5>Careers</h5>
+                                            <p>We welcome talented and ambitious professionals seeking growth in a dynamic and challenging environment.</p>
+                                            <p>Submit your CV to hr@lyceumtechnology.com for consideration.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab" tabindex="0">
+                            <div class="companies_tabs_content">
+                                <h5>4. AF constructions (KSA)</h5>
+                                <p>Soon...</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings2" role="tabpanel"
+                            aria-labelledby="v-pills-settings2-tab" tabindex="0">
+                            <div class="companies_tabs_content">
+                                <h5>5. Shama Al-madina (UAE)</h5>
+                                <p>Soon...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer_section">
+        <div class="container">
+            <div class="footer_top_bar_main">
+                <div class="footer_top_bar_links">
+                    <a href="#">Contact us</a>
+                    <a href="#">News</a>
+                    <a href="#">Subscribe to news</a>
+                    <a href="#">Where we operate </a>
+                    <a href="#">Services and technology </a>
+                    <a href="#">Suppliers</a>
+                </div>
+                <div class="footer_top_bar_icons">
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                </div>
+            </div>
+            <div class="footer_bottom_bar_main">
+                <div class="footer_bottom_bar_logo">
+                    <a href="index.html">Lyceum</a>
+                </div>
+                <div class="footer_bottom_bar_links">
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookie notice</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Modern Slavery Statement</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#Hero" class="floating_btn">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8 12.6666V3.33325" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            </path>
+            <path d="M3.33337 7.99992L8.00004 3.33325L12.6667 7.99992" stroke="black" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    </a>
+
+    <div class="social_media_icon">
+        <a href="#">
+            <svg class="{{class}}" width="16" height="16" viewBox="0 0 16 16" fill="none"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="16" height="16" fill="url(#pattern0)"></rect>
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1680_15093" transform="scale(0.0416667)"></use>
+                    </pattern>
+                    <image id="image0_1680_15093" width="24" height="24"
+                        xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAfElEQVR4nO3UQQqAIBAF0K/dLTxCN2nbTaM6RtpEMIULEUNHovrwV8J/MAuBPzdiACwAKLMTgDYEzAXGiTuGgPMxJw1v2O8AlNhqgJY+keYN9xiAEs5SFVDSJ1KvATaJz24F0MUAUwCxMSA3vQeJAD4iBoARUeDIIA1c2QE1b6WvmSReFwAAAABJRU5ErkJggg==">
+                    </image>
+                </defs>
+            </svg>
+        </a>
+        <a href="#">
+            <svg class="{{class}}" width="16" height="16" viewBox="0 0 16 16" stroke="black" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 5.33325C13.1046 5.33325 14 4.43782 14 3.33325C14 2.22868 13.1046 1.33325 12 1.33325C10.8954 1.33325 10 2.22868 10 3.33325C10 4.43782 10.8954 5.33325 12 5.33325Z"
+                    stroke="inherit" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                    d="M4 10C5.10457 10 6 9.10457 6 8C6 6.89543 5.10457 6 4 6C2.89543 6 2 6.89543 2 8C2 9.10457 2.89543 10 4 10Z"
+                    stroke="inherit" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path
+                    d="M12 14.6667C13.1046 14.6667 14 13.7713 14 12.6667C14 11.5622 13.1046 10.6667 12 10.6667C10.8954 10.6667 10 11.5622 10 12.6667C10 13.7713 10.8954 14.6667 12 14.6667Z"
+                    stroke="inherit" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M5.72668 9.00659L10.28 11.6599" stroke="inherit" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                <path d="M10.2734 4.34009L5.72668 6.99342" stroke="inherit" stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+            </svg>
+        </a>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1200,
+        });
+    </script>
+
+
+
+</body>
+
+</html>
