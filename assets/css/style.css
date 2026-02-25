@@ -1029,9 +1029,10 @@ body{
 }
 .management_tab_card_body img{
     width: 100%;
-    max-width: 250px;
-    min-width: 250px;
-    height: 250px;
+    max-width: 200px;
+    min-width: 200px;
+    height: 150px;
+    object-fit: contain;
 }
 .management_tab_card_txt h4{
     font-size: 22px;
